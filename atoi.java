@@ -24,7 +24,7 @@ c class Solution {
                 // negative
                 if (neg) {
                     if ((result * -1) >= (Integer.MIN_VALUE / 10)) {
-                        result = result + 10;
+                        result = result * 10;
                     }
                     else {
                         result = Integer.MIN_VALUE;
